@@ -11,11 +11,11 @@ if per != 40 {
 }
 }
 
-//func testPerimeterCircle(t *testing.T) {
-//c := Circle{0, 0, 5}
-//perc := c.perimeter()
+func testPerimeterCircle(t *testing.T) {
+c := Circle{0, 0, 5}
+perc := c.perimeter()
 
-//if perc != 21 {
-//    t.Error("21 not received as perimeter of circle!")
-//}
-//}
+if perc != 21 {
+    t.Error("21 not received as perimeter of circle!")
+}
+}
